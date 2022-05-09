@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Container, Form, Row, Col, Button } from 'react-bootstrap'
-import { contactPage, containerForm, contactPageImage } from '../styles/contact.module.css'
+import { contactPage, contactPageImage } from '../styles/contact.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 function contact() {
@@ -33,7 +33,7 @@ function contact() {
             <Form.Control style={{ color: "#000" }} as="textarea" name="message" id="message" rows="3" placeholder="any problem need solving?" />
 
           </Form.Group>
-          <Button type="submit" style={{ marginTop: "10px" }}>Submit This Email</Button>
+          <Button type="submit" variant="dark" style={{ marginTop: "10px" }}>Submit This Email</Button>
             </Col>
           </Row>
         </Form>

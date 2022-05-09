@@ -21,12 +21,14 @@ function about() {
       <StaticImage src='../images/js.png' className={aboutPageTech} />
       <StaticImage src='../images/react.png' className={aboutPageTech} />
       <StaticImage src='../images/node.png' className={aboutPageTech} />
+      <StaticImage src='../images/express.png' className={aboutPageTech} />
+      <StaticImage src='../images/mongodb.png' className={aboutPageTech} />
       <StaticImage src='../images/gatsby.png' className={aboutPageTech} />
       <StaticImage src='../images/bootstrap.png' className={aboutPageTech} />
 </div>
 
 
-      <Link to='/#projects'><Button variant="outline-dark">Check Out My Projects</Button></Link>
+      <Link to='/#projects'><Button variant="dark">Check Out My Projects</Button></Link>
       
       <h3 style={{marginTop: "10px"}}>Want to work together?</h3>
       <Link to='/#contact'><Button variant="outline-dark" style={{marginRight: "10px"}}>Contact Me</Button></Link>

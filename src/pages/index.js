@@ -6,18 +6,15 @@ import About from './about'
 import Contact from './contact'
 import '../styles/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Container } from 'react-bootstrap'
 
 const IndexPage = () => {
   return (
     <>
       <Layout>
-        <Container fluid>
-          <Hero />
-          <About />
-          <Projects />
-          <Contact />
-        </Container>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
       </Layout>
     </>
   )

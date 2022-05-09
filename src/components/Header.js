@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { resumeNav } from './Header.module.css'
-import { StaticImage } from 'gatsby-plugin-image'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import resume from '../public/resume.pdf'
 

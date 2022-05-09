@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from "gatsby-plugin-image"
 import { Button } from 'react-bootstrap'
-import { heroPage, heroPageLeft, heroButton, heroImage } from '../styles/hero.module.css'
+import { heroPage, heroPageLeft, heroImage } from '../styles/hero.module.css'
 
 function hero() {
   return (
@@ -11,7 +11,7 @@ function hero() {
         <div className={heroPageLeft}>
           <h1>Solving Problems +<br />Delivering Solutions</h1>
           <p>Utilizing front end frameworks to build user friendly applications.</p>
-          <Link to='/#projects'><Button className={heroButton} style={{background: "#e1742b"}}>Check Out My Projects</Button></Link>
+          <Link to='/#projects'><Button variant="dark" size="lg">Check Out My Projects</Button></Link>
         </div>
       </div>
       <div style={{ textAlign: "center" }}>
