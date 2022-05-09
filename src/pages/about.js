@@ -24,6 +24,7 @@ function about() {
       <StaticImage src='../images/express.png' className={aboutPageTech} />
       <StaticImage src='../images/mongodb.png' className={aboutPageTech} />
       <StaticImage src='../images/gatsby.png' className={aboutPageTech} />
+      <StaticImage src='../images/aws.png' className={aboutPageTech} />
       <StaticImage src='../images/bootstrap.png' className={aboutPageTech} />
 </div>
 
