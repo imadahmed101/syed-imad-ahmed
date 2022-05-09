@@ -1,0 +1,28 @@
+.about-page {
+    margin-top: 50px;
+    min-height: 500px;
+    text-align: center;
+}
+
+.about-page-name {
+    color: orange;
+    font-weight: 800;
+}
+
+.about-page-stack {
+    margin-bottom: 20px;
+}
+
+.about-page-tech {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.resume-button {
+    color: black;
+}
+
+.resume-button:hover {
+    color: white;
+}

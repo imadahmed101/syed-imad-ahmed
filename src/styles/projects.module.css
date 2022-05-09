@@ -1,0 +1,33 @@
+.projects-page {
+    min-height: 600px;
+    background-color: rgb(218, 218, 218);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.projects-page h1, h2, h3 {
+    color: rgb(29, 29, 29);
+}
+
+.projects-page h1 {
+    margin-left: 20px;
+}
+
+.projects-page-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    margin: 80px 20px;
+}
+
+@media only screen and (max-width: 900px) { 
+    .projects-page-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    .projects-page-list{
+        grid-template-columns: 1fr;
+    }
+}
