@@ -9,7 +9,7 @@ function hero() {
     <div id='hero' className={heroPage}>
       <div>
         <div className={heroPageLeft}>
-          <h1>Solving Problems +<br />Delivering Solutions</h1>
+          <h1>Web Dev<br />Full Stack</h1>
           <p>Utilizing front end frameworks to build user friendly applications.</p>
           <Link to='/#projects'><Button variant="dark" size="lg">Check Out My Projects</Button></Link>
         </div>

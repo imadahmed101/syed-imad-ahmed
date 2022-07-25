@@ -4,12 +4,12 @@
     width: cover;
     min-height: 750px;
     align-items: center;
-    background: radial-gradient(at top left, rgb(43, 116, 225) 0%, rgb(9, 48, 107) 100%);
 }
 
 .hero-page-left {
     margin-left: 35px;
 }
+
 
 .hero-page h1 {
     font-size: 3.5em;
@@ -17,16 +17,9 @@
     color: white;
 }
 
-.hero-page p {
-    color: rgb(201, 201, 201);
-}
-
 .hero-image {
     height: 400px;
     width: 400px;
-}
-.hero-button:hover {
-    background: orangered;
 }
 
 @media only screen and (max-width: 850px) {

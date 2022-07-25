@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    /*color: white;*/
-    color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,14 +14,18 @@ html, body {
 
 
 body {
-    /*background: radial-gradient(at top left, rgb(43, 116, 225) 0%, rgb(9, 48, 107) 100%);*/
-    background-color: white;
+    background: radial-gradient(at top left, rgb(43, 116, 225) 0%, rgb(9, 48, 107) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0px 30px;
 }
 
+h1, h2, h3 {
+    color: white;
+}
+
 p {
     font-size: 1em;
-    color: rgb(94, 94, 94);    
+    color: rgb(201, 201, 201);
+
 }
