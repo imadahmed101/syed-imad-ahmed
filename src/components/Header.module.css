@@ -1,4 +1,7 @@
 .resume-nav {
     text-decoration: none;
-    color: #e1742b;
+    color: white;
+    background-color: #e1742b;
+    border-radius: 25px;
+    padding:3px;
 }

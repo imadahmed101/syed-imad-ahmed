@@ -9,7 +9,7 @@ const Header = () => {
 
         <Container fluid>
 
-            <Navbar expand="md" variant="light">
+            <Navbar expand="md" variant="dark">
                 <Navbar.Brand href="/">Syed Imad Ahmed</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarResponsive" />
                 <Navbar.Collapse id="navbarResponsive">

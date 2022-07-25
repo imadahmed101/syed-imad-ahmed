@@ -1,12 +1,7 @@
 .projects-page {
     min-height: 600px;
-    background-color: rgb(218, 218, 218);
-    color: white;
     padding-top: 50px;
     padding-bottom: 30px;
-}
-.projects-page h1, h2, h3 {
-    color: rgb(29, 29, 29);
 }
 
 .projects-page h1 {

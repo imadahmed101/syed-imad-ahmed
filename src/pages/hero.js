@@ -9,9 +9,9 @@ function hero() {
     <div id='hero' className={heroPage}>
       <div>
         <div className={heroPageLeft}>
-          <h1>Web Dev<br />Full Stack</h1>
-          <p>Utilizing front end frameworks to build user friendly applications.</p>
-          <Link to='/#projects'><Button variant="dark" size="lg">Check Out My Projects</Button></Link>
+          <h1>Full Stack<br />Web Developer</h1>
+          <p>Specialized in the MERN stack. Utilizing front and back end technologies to build clean and user friendly applications.</p>
+          <Link to='/#projects'><Button variant="outline-light" size="lg">Check Out My Projects</Button></Link>
         </div>
       </div>
       <div style={{ textAlign: "center" }}>
