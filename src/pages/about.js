@@ -34,7 +34,7 @@ function about() {
 
       <h3 style={{ marginTop: "10px" }}>Want to work together?</h3>
       <Link to='/#contact'><Button variant="outline-light" style={{ marginRight: "10px" }}>Contact Me</Button></Link>
-      <Link> <Button variant="outline-light"><a href={resume} target="_blank" className={resumeButton}>View Resume</a></Button></Link>
+      <Link> <Button variant="outline-light" href={resume} target="_blank" className={resumeButton}>View Resume</Button></Link>
     </div>
   )
 }
