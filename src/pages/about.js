@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from "gatsby-plugin-image"
-import { Button } from 'react-bootstrap'
-import { aboutPage, aboutPageName, aboutPageStack, aboutPageTech, aboutPageList, aboutPageTechHeader, resumeButton } from '../styles/about.module.css'
+import { Button, Container } from 'react-bootstrap'
+import { aboutPage, aboutPageName, aboutPageStack, aboutPageTech, aboutPageTechHeader, resumeButton } from '../styles/about.module.css'
 import resume from '../public/resume.pdf'
 
 function about() {
@@ -10,10 +10,13 @@ function about() {
     <div id='about' className={aboutPage}>
       <h1>Hello!</h1>
       <h2>My name is<br /><div className={aboutPageName}>Syed Imad Ahmed</div></h2>
-      <p>I am a Web Developer with a diploma in computer programming.<br />
-        I build applications with responsiveness and user experience in mind.<br />
-        Utilizing front end frameworks to build user friendly interfaces.<br />
-        Harnessing back end technologies for clean code implementations.</p>
+      <Container fluid="md">
+        <p>
+          I am a Web Developer with a diploma in computer programming.
+          I build applications with responsiveness and user experience in mind.
+          Utilizing front end frameworks and libraries to create user friendly interfaces.
+          Harnessing back end technologies to produce clean code implementations.</p>
+        </Container>
 
       <div className={aboutPageStack}>
 
