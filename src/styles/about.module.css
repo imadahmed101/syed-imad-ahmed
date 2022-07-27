@@ -18,6 +18,12 @@
     margin-right: 10px;
 }
 
+.about-page-tech-header {
+    color: white;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
 .resume-button {
     text-decoration: none;
 }

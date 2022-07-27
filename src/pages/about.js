@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from "gatsby-plugin-image"
 import { Button } from 'react-bootstrap'
-import { aboutPage, aboutPageName, aboutPageStack, aboutPageTech, resumeButton } from '../styles/about.module.css'
+import { aboutPage, aboutPageName, aboutPageStack, aboutPageTech, aboutPageList, aboutPageTechHeader, resumeButton } from '../styles/about.module.css'
 import resume from '../public/resume.pdf'
 
 function about() {
@@ -26,15 +26,16 @@ function about() {
       </div>
 
       <h3>Other Technologies I Use:</h3>
-      <p>Front End: React - Gatsby - HTML5 - CSS3 - Javascript<br />
-        Back End: Node - Express<br />
-        Data Base: MongoDB<br />
-        Styling: Bootstrap - Material UI(MUI)<br />
-        Hosting: cPanel - AWS</p>
+      <p><div className={aboutPageTechHeader}>Front End</div> React - Gatsby - HTML5 - CSS3 - Javascript<br />
+      <div className={aboutPageTechHeader}>Back End</div> Node - Express<br />
+      <div className={aboutPageTechHeader}>Database</div> MongoDB<br />
+      <div className={aboutPageTechHeader}>Styling</div> MUI - Bootstrap<br />
+      <div className={aboutPageTechHeader}>Hosting</div> cPanel - AWS</p>
 
       <h3 style={{ marginTop: "10px" }}>Want to work together?</h3>
       <Link to='/#contact'><Button variant="outline-light" style={{ marginRight: "10px" }}>Contact Me</Button></Link>
       <Link> <Button variant="outline-light" href={resume} target="_blank" className={resumeButton}>View Resume</Button></Link>
+
     </div>
   )
 }
