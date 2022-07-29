@@ -33,7 +33,7 @@ function about() {
       <div className={aboutPageTechHeader}>Back End</div> Node - Express<br />
       <div className={aboutPageTechHeader}>Database</div> MongoDB<br />
       <div className={aboutPageTechHeader}>Styling</div> MUI - Bootstrap<br />
-      <div className={aboutPageTechHeader}>Hosting</div> cPanel - AWS</p>
+      <div className={aboutPageTechHeader}>DevOps/Hosting</div> AWS - cPanel</p>
 
       <h3 style={{ marginTop: "10px" }}>Want to work together?</h3>
       <Link to='/#contact'><Button variant="outline-light" style={{ marginRight: "10px" }}>Contact Me</Button></Link>
