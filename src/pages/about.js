@@ -29,9 +29,10 @@ function about() {
       </div>
 
       <h3>Other Technologies I Use:</h3>
-      <p><div className={aboutPageTechHeader}>Front End</div> React - Gatsby - HTML5 - CSS3 - Javascript<br />
+      <p><div className={aboutPageTechHeader}>Front End</div> React - Gatsby<br />
       <div className={aboutPageTechHeader}>Back End</div> Node - Express<br />
-      <div className={aboutPageTechHeader}>Database</div> MongoDB<br />
+      <div className={aboutPageTechHeader}>Database</div> MongoDB - SQL - Oracle<br />
+      <div className={aboutPageTechHeader}>Languages</div> JavaScript - C++ - Java<br />
       <div className={aboutPageTechHeader}>Styling</div> MUI - Bootstrap<br />
       <div className={aboutPageTechHeader}>DevOps/Hosting</div> AWS - cPanel</p>
 

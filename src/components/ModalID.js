@@ -15,10 +15,11 @@ function Example() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title style={{ color: "#000" }}>Inventory Dashboard</Modal.Title>
+          <Modal.Title style={{ color: "#000" }}>E-Commerce Platform</Modal.Title>
         </Modal.Header>
-        <Modal.Body style={{ color: "#000" }}>Utilizing React, Node.js, Express.js, and MongoDB, created a fullstack MERN CRUD app to manage inventory.
-          React for the framework (library). Node and Express as backend, and MongoDB as the database.</Modal.Body>
+        <Modal.Body style={{ color: "#000" }}>Full Stack application utilizing React for the front end and Node, Express and MongoDB for the back end. 
+        Utilizing Axios for API calls, Json Web Tokens (JWT) for Authentication, and MUI for Styling. 
+        Front end hosted on shared hosting using cPanel, back end hosted on AWS using an EC2.</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
