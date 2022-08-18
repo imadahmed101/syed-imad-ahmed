@@ -15,7 +15,7 @@ function Example() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title style={{ color: "#000" }}>E-Commerce Platform</Modal.Title>
+          <Modal.Title style={{ color: "#000" }}>Spiceez</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ color: "#000" }}>Full Stack application utilizing React for the front end and Node, Express and MongoDB for the back end. 
         Utilizing Axios for API calls, Json Web Tokens (JWT) for Authentication, and MUI for Styling. 

@@ -9,14 +9,14 @@ function projects() {
   return (
     <div className={projectsPage}>
 
-      <h1 id='projects'>Projects</h1>
+      <h1 id='projects' style={{marginTop: "80px"}}>Projects</h1>
 
       <div className={projectsPageList}>
       <div>
           <h3>E-Commerce Platform</h3>
           <p>Spiceez</p>
           <ModalID />
-          <Link to='https://spiceez.syedimadahmed.com' target="_blank"><Button variant="outline-light" style={{ marginRight: "10px" }}>Live Site</Button></Link>
+          <Link to='http://spiceez.syedimadahmed.com' target="_blank"><Button variant="outline-light" style={{ marginRight: "10px" }}>Live Site</Button></Link>
           <Link to="https://github.com/imadahmed101/inventory-dashboard" target="_blank"><Button variant="outline-light">Github</Button></Link>
         </div>
         <div>
