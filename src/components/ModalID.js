@@ -11,7 +11,7 @@ function Example() {
 
   return (
     <div>
-      <StaticImage src='../images/inventory-dashboard.png' alt='banner' className={ modalImage } style={{ marginBottom: "10px" }} onClick={handleShow} />
+      <StaticImage src='../images/spiceez.png' alt='banner' className={ modalImage } style={{ marginBottom: "10px" }} onClick={handleShow} />
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
