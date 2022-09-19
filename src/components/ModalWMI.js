@@ -17,8 +17,8 @@ function Example() {
         <Modal.Header closeButton>
           <Modal.Title style={{ color: "#000" }}>WillisMonroeInsurance.com</Modal.Title>
         </Modal.Header>
-        <Modal.Body style={{ color: "#000" }}>Utilizing HTML, CSS and PHP, created a company website for an insurance company.
-          HTML and CSS to create a one page design with parralax scrolling. PHP for the contact form handling.</Modal.Body>
+        <Modal.Body style={{ color: "#000" }}>Utilizing HTML, CSS and PHP, created an online presence for an insurance company.
+          HTML and CSS to create a one page design with a parralax scrolling effect for the visuals. PHP for the contact form handling.</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

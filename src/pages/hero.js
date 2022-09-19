@@ -10,7 +10,7 @@ function hero() {
       <div>
         <div className={heroPageLeft}>
           <h1>Full Stack<br />Web Developer</h1>
-          <p>Specialized in the MERN stack. Utilizing front and back end technologies to build clean and user friendly applications.</p>
+          <p>Utilizing front and back end technologies to build user friendly applications with custom responsive designs.</p>
           <Link to='/#projects'><Button variant="outline-light" size="lg">Check Out My Projects</Button></Link>
         </div>
       </div>

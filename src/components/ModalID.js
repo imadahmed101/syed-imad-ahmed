@@ -17,9 +17,9 @@ function Example() {
         <Modal.Header closeButton>
           <Modal.Title style={{ color: "#000" }}>Spiceez</Modal.Title>
         </Modal.Header>
-        <Modal.Body style={{ color: "#000" }}>Full Stack application utilizing React for the front end and Node, Express and MongoDB for the back end. 
-        Utilizing Axios for API calls, Json Web Tokens (JWT) for Authentication, and MUI for Styling. 
-        Front end hosted on shared hosting using cPanel, back end hosted on AWS using an EC2.</Modal.Body>
+        <Modal.Body style={{ color: "#000" }}>Full Stack application utilizing React for the front end and Firebase for the back end. 
+        Utilizing Firebase's storage and database's to hold dynamically generated items. Dashboard with full CRUD (create, read, update, delete) capabilities to change items. 
+        Custom responsive design built using MUI (styling library built by google).</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
