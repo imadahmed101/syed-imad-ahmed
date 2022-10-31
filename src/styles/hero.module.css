@@ -10,6 +10,9 @@
     margin-left: 35px;
 }
 
+.hero-page-highlight{
+    color: #00cae9;
+}
 
 .hero-page h1 {
     font-size: 3.5em;
@@ -33,8 +36,6 @@
         margin-left: 0;
     }
     .hero-image {
-        max-width: 400px;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
+        display: none;
     }
 }

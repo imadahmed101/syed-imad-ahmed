@@ -5,6 +5,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 import resume from '../public/resume.pdf'
 
 const Header = () => {
+
     return (
 
         <Container fluid>
@@ -27,7 +28,8 @@ const Header = () => {
                             <Link to="/#contact" className="nav-link" activeClassName="active">Contact</Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Link className="nav-link" activeClassName="active"><a href={resume} target="_blank" className={resumeNav}>Resume</a></Link>
+                        <Link className="nav-link" activeClassName="active"><a href={resume} target="_blank" className={resumeNav}>Resume</a></Link>
+                            {/* <Link className="nav-link" activeClassName="active"><a href={resume} target="_blank"  style={{ textDecoration: "none", color: {fontStyle}, borderRadius: "25px", padding: "3px" }}>Resume</a></Link> */}
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

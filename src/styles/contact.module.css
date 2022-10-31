@@ -20,6 +20,9 @@
     text-align: center;
 }
 
+.page-title {
+    color: #02aec9
+}
 
 @media only screen and (max-width: 750px) {
     .contact-page {

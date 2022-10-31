@@ -14,18 +14,42 @@ html, body {
 
 
 body {
-    background: radial-gradient(at top left, rgb(43, 116, 225) 0%, rgb(9, 48, 107) 100%);
+    background: radial-gradient(at top left, rgb(0, 0, 0) 0%, rgb(14, 15, 36) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0px 30px;
 }
 
 h1, h2, h3 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p {
     font-size: 1em;
     color: rgb(201, 201, 201);
 
+}
+
+.red {
+    color: rgb(202, 0, 34);
+}
+
+#red {
+    background-color: rgb(202, 0, 34);
+}
+
+.yellow {
+    color: gold;
+}
+
+#yellow {
+    background-color: gold;
+}
+
+.blue {
+    color: #00cae9;
+}
+
+#blue {
+    background-color: #00cae9;
 }

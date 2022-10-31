@@ -1,5 +1,4 @@
 .about-page {
-    margin-top: 50px;
     min-height: 500px;
     text-align: center;
 }
@@ -15,15 +14,27 @@
 .about-page-tech {
     height: 40px;
     width: 40px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .about-page-tech-header {
-    color: white;
-    text-decoration: underline;
+    color: #02aec9;
+    text-decoration: none;
     margin-top: 10px;
+}
+
+.highlight-title {
+    color: #02aec9
 }
 
 .resume-button {
     text-decoration: none;
+}
+
+.skills-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: cover;
+    align-items: space-between;
 }
