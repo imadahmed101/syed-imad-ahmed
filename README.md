@@ -2,7 +2,7 @@
 
 https://syedimadahmed.com
 
-<img src="./public/images/portfolio-current.png>
+<img src="./public/images/portfolio-current.png"/>
 
 ## Technology
 - React
