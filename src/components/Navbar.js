@@ -10,15 +10,9 @@ const Navbar = () => {
             <div>
                 <h1 className='text-lg p-2 font-semibold tracking-tight'><Link to='/'>Imad's Portfolio</Link></h1>
             </div>
-            {/* <div className='hidden md:block'> */}
             <div className='hidden md:flex'>
-                {/* <Link to='/#about' className='text-lg px-2'>About Me</Link>
-                <Link to='/#projects' className='text-lg px-2'>Projects</Link>
-                <Link to='/#contact' className='text-lg px-2'>Contact</Link> */}
-                {/* <Link to='/' className='text-lg px-2'>Resume</Link> */}
                 <Link to='/' className='text-lg font-semibold mr-2 border-2 border-black hover:border-white hover:text-white rounded-md transition duration-500 p-2'>Home</Link>
                 <Link to='/projects' className='text-lg font-semibold mr-2 border-2 border-black hover:border-white hover:text-white rounded-md transition duration-500 p-2'>Projects</Link>
-                {/* <Link to='/blog' className='text-lg font-semibold px-2 mr-2 border-2 border-black hover:border-white hover:text-white rounded-md transition duration-500 p-2'>Blog</Link> */}
                 <a className='text-lg font-semibold border-2 border-white bg-white text-black hover:bg-black hover:text-white rounded-md transition duration-500 p-2' href="./resume.pdf" target="_blank">Resume</a>
             </div>
 
