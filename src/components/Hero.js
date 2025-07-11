@@ -1,16 +1,46 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Lottie from 'lottie-react'
+import animationData from '../animations/aaaa.json'
 
 const Hero = () => {
   return (
-    <div className='bg-gradient-to-b from-black to-blue-950 py-16 md:py-32 px-4'>
-      <div className='max-w-4xl mx-auto'>
-          <p className='text-sm md:text-lg text-blue-400'>Syed Imad Ahmed</p>
-          <h2 className='text-4xl md:text-4xl xl:text-6xl text-white font-bold tracking-tight pt-2'>Building Web Applications <br/>One Block At A Time</h2>
-          <p className='md:text-lg xl:text-xl text-gray-300 font-semibold pt-12 mb-12'>Full Stack Web Developer utilizing JavaScript and React. Working with both front-end and back-end technologies. Focused on ui/ux when building web applications.</p>
-          <Link to='/projects' className='border-2 border-white text-white text-xl rounded-md p-4 hover:bg-black transition duration-500 '>Check Projects</Link>
+
+    <div className='bg-yellow-300 pt-2 pb-2 px-4 overflow-hidden'>
+      <div className='flex flex-col md:flex-row text-center md:text-left text-black py-2 px-4 max-w-[1200px] mx-auto'>
+        <div className='flex-1 max-w-[600px] mx-auto md:mr-8'>
+          <h2 className=' text-5xl text-blue-800 font-semibold pt-16 md:pt-32 pb-8'>Website Manager</h2>
+          <p className='text-3xl font-semibold pb-8 md:pb-16'>
+            Increase and grow your companies online presence with our tailored design and development services.
+          </p>
+
+
+          <Link to='/form' className='inline-flex text-lg md:text-xl font-semibold bg-black rounded hover:bg-gradient-to-br hover:from-[#084cabb5] hover:to-[#084cab] text-white py-2 px-4 mr-4'>
+            Get Started
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-5 h-5 my-auto ml-1">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+          </Link>
+          
+{/* 
+          <Link to='/form' className='inline-flex text-lg md:text-xl font-semibold rounded border-[1px] border-black text-black hover:bg-white py-2 px-4'>
+            Get Started
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-5 h-5 my-auto ml-1">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+          </Link> */}
+        </div>
+        <div className='flex-1 max-w-[600px] mx-auto overflow-hidden'>
+        <Lottie animationData={animationData} className='w-[250px] md:w-[550px]' />
+        
+        {/* <picture>
+                    <source type='image/webp' srcSet="images/hero-img-2.webp" />
+          <img src='images/hero-img-2.jpg' alt='Working together to complete your business objectives' className='w-[300px] sm:w-[400px] md:w-[500px] h-[206px] sm:h-[277px] md:h-[344px] object-cover mt-8 md:mt-32 mx-auto' />
+                </picture> */}
+        </div>
       </div>
     </div>
+
   )
 }
 
