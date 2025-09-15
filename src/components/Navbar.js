@@ -15,8 +15,9 @@ const Navbar = () => {
                     <Link to='/' className='font-semibold mr-4 hover:text-blue-500 transition duration-500 p-2'>Home</Link>
                     <Link to='/services' className='font-semibold mr-4 hover:text-blue-500 transition duration-500 p-2'>Services</Link>
                     <Link to='/projects' className='font-semibold mr-4 hover:text-blue-500 transition duration-500 p-2'>Projects</Link>
+                    {/* <Link to='/dev' className='font-semibold mr-4 hover:text-blue-500 transition duration-500 p-2'>Dev</Link> */}
                     <Link to='/about' className='font-semibold mr-4 hover:text-blue-500 transition duration-500 p-2'>About</Link>
-                    <Link to='/form' className='inline-flex font-semibold bg-black hover:bg-gradient-to-br hover:from-[#084cabb5] hover:to-[#084cab] rounded text-white py-2 px-4'>
+                    <Link to='/form' className='inline-flex font-semibold bg-gradient-to-br from-[#084cabb5] to-[#084cab] hover:from-black hover:to-black text-white py-2 px-4'>
                         Get Started
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 my-auto ml-1">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -34,7 +35,7 @@ const Navbar = () => {
                         </svg>
                     </button>
                 </div>
-                <nav className={open ? 'flex md:hidden flex-col absolute w-full min-h-screen z-100 bg-white text-black top-14 right-0 font-semibold' : 'hidden'}>
+                <nav className={open ? 'flex md:hidden flex-col absolute w-full z-100 bg-white text-black top-14 right-0 font-semibold' : 'hidden'}>
                     <Link to='/' onClick={() => setOpen(false)} className='flex justify-between p-4 hover:bg-gray-300 border-b border-gray-500'>Home
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 my-auto">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
@@ -50,6 +51,11 @@ const Navbar = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                         </svg>
                     </Link>
+                                        {/* <Link to='/dev' onClick={() => setOpen(false)} className='flex justify-between p-4 hover:bg-gray-300 border-b border-gray-500'>Dev
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 my-auto">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </Link> */}
                     <Link to='/about' onClick={() => setOpen(false)} className='flex justify-between p-4 hover:bg-gray-300 border-b border-gray-500'>About
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 my-auto">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />

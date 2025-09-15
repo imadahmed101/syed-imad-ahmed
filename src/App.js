@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import Form from './pages/Form/Form'
-import Projects from './pages/Projects'
-import Error from './pages/Error'
-// import Navbar from './components/Navbar';
+import Projects from './pages/Projects/Projects'
+import Error from './pages/Error/Error'
+import Navbar from './components/Navbar';
+import Contact from './components/Contact'
 import Footer from './components/Footer';
+
 import SiteFix from './projects/SiteFix';
 import WillisMonroeInsurance from './projects/WillisMonroeInsurance';
-// import StudentConnect from './projects/StudentConnect'
 import Trendily from './projects/Trendily'
-import ScrollToTop from './components/ScrollToTop';
 import MissionPossible from './projects/MissionPossible';
+
+import ScrollToTop from './components/ScrollToTop';
 import About from './pages/About/About'
 import Services from './pages/Services/Services'
 import Thanks from './pages/Thanks/Thanks'
@@ -36,7 +38,7 @@ function App() {
     <Context.Provider value={[cookieSettings, setCookieSettings]}>
     <BrowserRouter>
       <ScrollToTop />
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/services' element={<Services />} />
@@ -50,6 +52,7 @@ function App() {
         <Route path='/projects/trnd' element={<Trendily />} />
         <Route path='/*' element={<Error />} />
       </Routes>
+      <Contact/>
       {!cookieSettings && <CookieSettings/>}
       <Footer />
     </BrowserRouter>

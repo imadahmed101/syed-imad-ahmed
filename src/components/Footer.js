@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='bg-black p-4'>
       <div className='flex flex-col md:flex-row justify-between max-w-[1200px] mx-auto text-gray-400'>
-        <p>© 2024 Syed Imad Ahmed</p>
+        <p>© 2025 Syed Imad Ahmed</p>
         <div className='inline-flex flex-wrap'>
           <Link to='/services' className='mr-2 md:mr-4'>Services</Link>
           <Link to='/projects' className='mr-2 md:mr-4'>Projects</Link>

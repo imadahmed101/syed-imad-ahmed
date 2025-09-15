@@ -1,5 +1,4 @@
 import React from 'react'
-import ContactMe from '../../components/Contact'
 
 const Contact = () => {
     return (
@@ -15,7 +14,6 @@ const Contact = () => {
                     </a>
                 </div>
             </div>
-            <ContactMe/>
         </div>
     )
 }
